@@ -1,6 +1,6 @@
 public class Person {
-    String name;
-    String surname;
+    protected String name;
+    protected String surname;
     Gender gender;
 
     public Person(String name, String surname, Gender gender) {
