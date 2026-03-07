@@ -27,13 +27,6 @@ public class Actor extends Person {
 
     @Override
     public int hashCode() {
-        int hash = 17;
-        if (name != null) {
-            hash = name.hashCode();
-        }
-        if (surname != null) {
-            hash = hash + surname.hashCode();
-        }
-        return hash;
+        return Objects.hash(name, surname, height);
     }
 }

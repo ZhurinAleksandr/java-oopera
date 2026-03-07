@@ -8,7 +8,7 @@ public class Theatre {
         Actor actor3 = new Actor("Натали", "Портман", Gender.FEMALE, 160);
         Director director1 = new Director("Константин", "Станиславский", Gender.MALE, 2);
         Director director2 = new Director("Всеволод", "Мейерхольд", Gender.MALE, 3);
-        String author = "Юрий Келдыш";
+        Person author = new Person("Юрий", "Келдыш", Gender.MALE);
 
         Show show = new Show("Ночь ее откровений", 86, director1);
         Opera opera = new Opera("Евгений Онегин", 165, director2, author,
